@@ -1,0 +1,88 @@
+/* header */
+
+header {
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+}
+
+.login-image {
+    display: flex;
+    margin: auto;
+}
+    
+.header-template{
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    padding: 10px;
+}
+
+.login-layout{
+    display: flex;
+}
+
+.login-menu {
+    display: flex;
+}
+
+/* Footer */
+
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.panel-base-1 {
+    
+}
+
+.panel-base-2 {
+    
+}
+
+.panel-base-3 {
+   
+}
+
+.panel-base-4 {
+   
+}
+
+.panel-base-1 li {
+    list-style: none;
+    font-family: "abel";
+margin-left: -40px;
+    
+}
+
+.panel-base-2 li {
+    list-style: none;
+    font-family: "abel";
+   margin-left: -40px;
+}
+
+.panel-base-3 li {
+    list-style: none;
+    font-family: "abel";
+  margin-left: -40px;
+}
+
+.panel-base-4 li {
+font-family: "abel";
+}
+
+.nav-title {
+   
+
+}

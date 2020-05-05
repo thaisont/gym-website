@@ -1,0 +1,48 @@
+.container {
+    display: grid;  
+    height: 100vh;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 112px 210px 210px 130px 200px;
+    grid-template-areas: 
+    "header header header header header header header header "
+"banner banner banner banner banner banner banner banner"
+"banner banner banner banner banner banner banner banner"
+". fitness fitness training training latest latest ."
+". main main main main main main ."
+". footer footer footer footer footer footer .";
+}
+
+header {
+    grid-area: header;
+}
+
+body {
+    grid-area: body;
+}
+
+.fitness-card {
+    grid-area: fitness;
+}
+
+.training-card {
+    grid-area: training;
+}
+
+.latest-update {
+    grid-area: latest;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.main {
+    grid-area: main;
+}
+
+.banner-image {
+    grid-area: banner;
+}
+
+
+
