@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto&display=swap")
-
-* {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto&display=swap") * {
     box-sizing: border-box;
 }
 
@@ -11,12 +9,12 @@ body {
 }
 
 h1 {
-   font-family: Arial, Helvetica, sans-serif;
-   color: rgb(209, 50, 10);
-   font-size: 20px;
-   text-transform: uppercase;
-   font-style: italic;
-   font-weight: bold;  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(209, 50, 10);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
 }
 
 h2 {
@@ -39,24 +37,21 @@ p {
     line-height: 1.5;
 }
 
-
-
 /* banner image */
 
-.banner-image{
+.banner-image {
     background-image: url(/Image/gym-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center;
 }
 
 .second-banner {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     margin-top: 20px;
 }
-
 
 /* cards */
 
@@ -66,7 +61,6 @@ p {
     margin-right: 20px;
     margin-top: -100px;
     background-color: #ECECEC;
-
 }
 
 .training-card {
@@ -75,20 +69,16 @@ p {
     margin-right: 20px;
     margin-top: -100px;
     background-color: #ECECEC;
-
-
 }
 
 .latest-update {
-     padding: 10px;
-     text-align: center;
+    padding: 10px;
+    text-align: center;
     margin-top: -100px;
-     background-color: #ECECEC;
-
+    background-color: #ECECEC;
 }
 
-
-.navigation-menu {
+/* .navigation-menu {
     display: flex;
     list-style: none;
 }
@@ -108,6 +98,52 @@ p {
 .navigation-menu li a:visited {
     color: white;
 }
+ */
+
+.navigation-menu {
+    color: black;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation-menu li {
+    margin-right: 0.5rem;
+}
+
+/* Nav start */
+
+.primary-header {
+    display: flex;
+    align-items: stretch;
+    background: red;
+    border: 10px solid red;
+}
+
+.nav-right, .nav-left {
+    display: flex;
+    flex: 1;
+}
+
+.nav-right {
+    justify-content: flex-end;
+    background: blue;
+}
+
+.nav-left {
+    justify-content: flex-start;
+    background: green;
+}
+
+/* Nav end */
+
+.nav-right a {
+    color: white;
+}
 
 .btn {
     font-family: Arial, Helvetica, sans-serif;
@@ -121,8 +157,6 @@ p {
     color: black;
     background-color: transparent;
     outline: none;
-    
-    
 }
 
 .btn:hover {
@@ -131,5 +165,3 @@ p {
     color: white;
     cursor: pointer;
 }
-
-

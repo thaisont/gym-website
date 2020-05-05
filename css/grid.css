@@ -34,10 +34,15 @@ body {
 
 footer {
     grid-area: footer;
+    background: green;
 }
 
 .main {
     grid-area: main;
+    background: red;
+    background-image: url("../Image/main-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .banner-image {
