@@ -1,14 +1,13 @@
 /* header */
 
-
-/* header {
+header {
     background-color: black;
-} */
+
+}
 
 .logo {
     display: flex;
     cursor: pointer;
-    max-width: 60px;
 }
 
 .login {
