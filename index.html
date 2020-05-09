@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="/script.js.js" />
+   
     <title>Gym TT</title>
 </head>
 
@@ -23,7 +25,8 @@
                             <li><a href="#">Equipment</a></li>
                             <li><a href="#">About us</a></li>
                         </div>
-
+                        </ul>
+                        <ul class="navigation-menu-2"></ul>
                         <div class="login-right">
                             <li><a href="#">Login</a></li>
                             <img class="login-image" href="#" src="Image/login-icon.png" alt="login icon" />
@@ -70,7 +73,7 @@
         <h1 class="header-body">Welcome to the world's best gym</h1>
         <p class="para-body">From low cost flexible memberships and 24 hour opening times, to quality gym equipment and classes included, 
             there are loads of reasons why TT is the UK's favourite gym.</p>
-
+        </div>
        
             <div class="second-banner">
         </div>
@@ -124,7 +127,24 @@
                 <div class="panel-base-4">
                     <div class="nav-title">
                         <h4>Search</h4>
-                        <p> hello </p>
+
+    
+               <form action="https://www.google.com/search"  method="GET" target="_blank">
+            <input type="text" name="q" placeholder="Google search">
+            <input type="submit"  value="Search" style="font-family: sans-serif;">
+            </form>
+<div class="container-search"></div>
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+            
+
                     </div>
                 </div>
             </div>

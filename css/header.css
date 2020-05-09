@@ -41,7 +41,8 @@ header {
 .panel {
     display: flex;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 0 50px;
+    flex-wrap: wrap;
     
 
 }

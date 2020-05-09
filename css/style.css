@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto&display=swap");
 
 
-html,
-body
-{
-    width: 100%;
-    height: 100%;
+
+body {
     margin: 0;
-    padding: 0;
-}
+    max-width: 100;
+  }
+
+
 
 
 h1 {
@@ -59,14 +58,16 @@ p {
 
     /* navigation */
 
-.navigation-menu {
+.navigation-menu,
+.navigation-menu-2 {
     display: flex;
     list-style: none;
     border: lightblue;
     border: 1px solid white;
 }
 
-.navigation-menu li {
+.navigation-menu li,
+.navigation-menu-2 li  {
     color: white;
     font-family: "abel";
     text-transform: uppercase;
@@ -75,11 +76,13 @@ p {
     
 }
 
-.navigation-menu li a {
+.navigation-menu li a,
+.navigation-menu-2 li a  {
     text-decoration: none;
 }
 
-.navigation-menu li a:visited {
+.navigation-menu li a:visited,
+.navigation-menu-2 li a:visited {
     color: white;
 }
 
@@ -186,7 +189,7 @@ p {
 }
 
 .btn-2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial, Helvetica, sans-serif;"
     font-weight: 500;
     font-weight: bold;
     border-radius: 2em;
@@ -216,6 +219,11 @@ p {
 
 /* body */
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-body {
     text-align: center;
     font-size: 24px;
@@ -223,7 +231,7 @@ p {
 
 .para-body {
     text-align: center;
-    margin: 0 250px 40px;
+    margin: 0 100px 40px;
     font-size: 21px;
 }
 
@@ -231,6 +239,10 @@ p {
     display: flex;
     margin: 0 20px;
     justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container-search {
     margin-bottom: 20px;
 }
 
