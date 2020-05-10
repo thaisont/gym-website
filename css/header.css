@@ -1,8 +1,83 @@
+
+
 /* header */
 
-header {
-    background-color: black;
+.header {
+    background-color: lightcoral;
+    display: flex;
+    align-items: stretch;
+    padding: 1rem;
+}
 
+.header-logo {
+    max-width: 60px;
+    margin-right: 1rem;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    flex: 2;
+}
+
+.header-right {
+    flex: 1;
+}
+
+.header-left {
+    justify-content: flex-start;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+.header-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-list a {
+    color: white;
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.header-list a:hover {
+transition: ease-in;
+    transition-duration: 0.5s;
+    color: rgb(209, 50, 10);
+
+}
+
+.icon-and-login a:hover, 
+.logo-icon :hover {
+    align-items: center;
+    transition: ease-in;
+    transition-duration: 0.5s;
+    fill: rgb(209, 50, 10);;
+
+}
+
+
+
+.logo-icon{
+    fill: white;
+    width: 30px;
+
+}
+
+
+
+/* header {
+    background-color: black;
 }
 
 .logo {
@@ -33,29 +108,22 @@ header {
 
 .login-menu {
     display: flex;
-}
+} */
 
 /* Footer */
-
 
 .panel {
     display: flex;
     justify-content: space-between;
     margin: 0 50px;
     flex-wrap: wrap;
-    
-
 }
 
-.panel-base-1 li,
-.panel-base-2 li, 
-.panel-base-3 li
-{
+.panel-base-1 li, .panel-base-2 li, .panel-base-3 li {
     font-family: "abel";
     margin-left: -40px;
     list-style: none;
     padding: 5px;
-    
 }
 
 .panel-base-2 {
@@ -64,29 +132,21 @@ order: -1;
 
 
 .panel-base-4 li {
-font-family: "abel";
+    font-family: "abel";
 }
 
-.panel-base-1 li a,
-.panel-base-2 li a,
-.panel-base-3 li a {
-    text-decoration: none;}
+.panel-base-1 li a, .panel-base-2 li a, .panel-base-3 li a {
+    text-decoration: none;
+}
 
-    /* visited link */ 
+/* visited link */
 
-.panel-base-1 :visited,
-.panel-base-2 :visited,
-.panel-base-3 :visited {
+.panel-base-1 :visited, .panel-base-2 :visited, .panel-base-3 :visited {
     color: black;
 }
- 
-    /* hover link */
-.panel-base-1 li a:hover,
-.panel-base-2 li a:hover ,
-.panel-base-3 li a:hover  {
+
+/* hover link */
+
+.panel-base-1 li a:hover, .panel-base-2 li a:hover, .panel-base-3 li a:hover {
     text-decoration: underline;
-    
 }
-
-
-
