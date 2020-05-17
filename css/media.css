@@ -70,13 +70,7 @@ text-align: center;
   
 }
 
- .checkbtn {
-      font-size: 30px;
-      color: white;
-     display: none;
-     cursor: pointer;
-     
-    }
+ 
 
 
 #check:checked + .navigation{
