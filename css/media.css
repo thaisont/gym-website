@@ -1,50 +1,110 @@
 @media (min-width: 300px) and (max-width: 700px) {
+  .banner-image {
+    padding-top: 50%;
+  }
 
-    .banner-image {
-        padding-top: 50%;
-    }
-    .page-container {
-        flex-direction: column;
-    }
+  .page-container {
+    flex-direction: column;
+  }
 
-    .header-body {
-        font-size: 18px;
-    }
+  .header-body {
+    font-size: 18px;
+  }
 
-    .para-body {
-        font-size: 16px;
-        margin: 0 60px 40px;
-    }
+  .para-body {
+    font-size: 16px;
+    margin: 0 60px 40px;
+  }
 
-    .fitness-card {
-        
-        text-align: center;
-    background-color: #ECECEC;
+  .fitness-card {
+    text-align: center;
+    background-color: #ececec;
     padding: 15px;
     margin: -100px 20px 0px 20px;
-    }
+  }
 
-    .training-card {padding: 15px;
+  .training-card {
+    padding: 15px;
     text-align: center;
-    background-color: #ECECEC;
-    margin: 20px 20px 0px 20px;}
-
-    .latest-update {
-        padding: 15px;
-    text-align: center;
-    background-color: #ECECEC;
+    background-color: #ececec;
     margin: 20px 20px 0px 20px;
+  }
+
+  .latest-update {
+    padding: 15px;
+    text-align: center;
+    background-color: #ececec;
+    margin: 20px 20px 0px 20px;
+  }
+
+  .logo-icon {
+      display: none;
     }
 
-.header-list {
-    text-align: center;
-    width: 100%;
+    .header-list a {
+        display: none;
+    }
+
+    /* Burger Menu */
+
+    .navigation {
+        text-align: center;}
+
+
+
+.navigation ul {
+    margin: 0;
+    transition: all .5s;
+}
+
+.navigation a {
+    
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navigation ul li {
+text-align: center;
+  line-height: 50px;
+  
+}
+
+ .checkbtn {
+      font-size: 30px;
+      color: white;
+     display: none;
+     cursor: pointer;
+     
+    }
+
+
+#check:checked + .navigation{
+    display: block;
+  }
+
+}
+
+
+
+
+@media (min-width: 700px) {
+    
+#check {
+     display: none;
+
+    }
+
+.navigation {
     display: none;
 }
 
-.logo-icon {
-    display: none;}
+#check {
+     display: none;
+}
 
+.menu-bar {
+    display: none;
+}
 
-
-
+}
