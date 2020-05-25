@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 765px) {
   .banner-image {
     padding-top: 50%;
   }
@@ -45,44 +45,66 @@
         display: none;
     }
 
-    /* Burger Menu */
 
-    .navigation {
-        text-align: center;}
+}
 
+@media (min-width: 300px) and (max-width: 499px) {
 
+  .panel  {
+  display: block;
+  }
 
-.navigation ul {
+  .logo-icon {
+      display: none;
+    }
+
+    .header-list a {
+        display: none;
+    }
+
+    .page-container {
+      display:block;
+    }
+
+    .fitness-card {
     margin: 0;
-    transition: all .5s;
+    margin-bottom: 10px;
 }
 
-.navigation a {
-    
-    color: white;
-    text-decoration: none;
-   
+.training-card {
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-.navigation ul li {
-text-align: center;
-  line-height: 50px;
+.latest-update {
+    margin: 0;
+    margin-bottom: 10px;
   
 }
 
- 
 
 
-#check:checked + .navigation{
-    display: block;
-  }
+.nav .close {
+  right: 25%;
+}
+
+.para-body {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.header-body {
+  margin-bottom: 5px;
+}
+
+
 
 }
 
 
 
 
-@media (min-width: 700px) {
+@media (min-width: 765px) {
     
 #check {
      display: none;
@@ -101,4 +123,12 @@ text-align: center;
     display: none;
 }
 
+#content {
+  display: none;
 }
+
+}
+
+
+
+

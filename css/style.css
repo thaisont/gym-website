@@ -93,6 +93,7 @@ p {
 .page-container {
     display: flex;
     margin-bottom: 3%;
+    line-height: 1.6;
 }
 
 .second-banner {
@@ -141,6 +142,10 @@ p {
     text-align: center;
     background-color: #ECECEC;
     margin: -100px 20px 0px 0px;
+
+.openSlideMenu {
+}
+
 }
 
 /* button */
@@ -207,4 +212,78 @@ p {
 .container-search {
     margin-bottom: 20px;
 }
+
+/* burger menu */
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #212121;
+    overflow-x: hidden;
+    padding-top:60px;
+    transition: 0.7s;
+    
+}
+
+.nav a {
+    display: block;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family:'Abel', sans-serif;
+    font-weight: 500;
+    
+}
+
+.nav .close {
+    position: absolute;
+    top: 0;
+    right:  22px;
+    margin-left: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav a:hover {
+     transition: ease-in 0.5s;
+    color: rgb(209, 50, 10);
+
+}
+
+.slide a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.slide a:hover {
+     transition: ease-in 0.5s;
+    color: rgb(209, 50, 10);}
+
+
+
+#content {
+    padding: 20px;
+    transition: margin-left 0.7s;
+    overflow: hidden;
+    align-self: center;
+}
+
+.top-nav-text {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 

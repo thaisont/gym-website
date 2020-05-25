@@ -7,11 +7,22 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/yourcode.js"></script>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="js.js" />
+    <link rel="stylesheet" href="css/all.css"/>
+     <link rel="stylesheet" href="css/all.min.css" />
+     <meta charset="UTF-8">
     <meta name="author" content="Thai Truong">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function openSlideMenu(){ 
+         document.getElementById("menu").style.width = "300px" ;
+         document.getElementById("content").style.marginLeft ="300px" ;
+     }
+     function closeSlideMenu(){
+         document.getElementById("menu").style.width = "0px" ;
+         document.getElementById("content").style.marginLeft ="0px" ;
+     }
+    </script>
         <title>Gym TT</title>
 </head>
 
@@ -44,18 +55,53 @@
 
     <header class="header">
 
-       
-         
-        <div class="header-left">
+        
+
             
+        <div class="header-left">
             <a href="#"><img class="header-logo" href="#" src="Image/Logo.png" alt="Ketllebell with fire inside it" /></a>
             <ul class="header-list">
                 <li><a href="#">Join now</a></li>
                 <li><a href="#">Find a gym</a></li>
-                <li><a href="#">Equipment</a></li>
                 <li><a href="#">About us</a></li>
+                <li><a href="#">Login</a></li>
             </ul>
-        
+            </div>
+             
+
+            <!--Burger menu-->
+<div id="content">   
+            <span class="slide">
+                <a href="#" onclick="openSlideMenu()">
+                <i class="fas fa-bars"></i>
+                <span class="top-nav-text">Menu</span>
+               
+                </a>
+ </span>
+            </span>
+
+            <div id="menu" class="nav">
+                <a href="#" class="close" onclick="closeSlideMenu()">
+                   <i class="fas fa-times"></i> 
+                   <span class="top-nav-text">Close</span>
+    
+                </a> 
+        <a href="#">Join now</a>
+                <a href="#">Find a gym</a>
+                <a href="#">About us</a>
+                <a href="#">Login</a>
+            </div>
+
+            </div> 
+
+
+
+<!--Burger menu-->
+    </header>
+
+    <!-- END : HEADER -->
+           
+        <!--<header-right>
         <div class="header-right">
             <ul class="header-list">
                 <div class="icon-and-login">
@@ -65,33 +111,12 @@
                 </svg>
                 <li>Log in</a></li> 
                 </div>   
-                </label>
-            </ul>
+                </ul>
             </a>
-            </div>
-            </div>
-             
-        </div>
+        </header-right> -->
+            
 
-<!--Burger menu-->
-<div class="menu-bar">
-       <input type="checkbox" id="check"> 
-            <label for="toggle" class="checkbtn"></label>
-                <i class="fa fa-align-justify" style="font-size:24px;color: white;"></i>
-            <div class="navigation">
-      <ul>
-<li><a class="active" href="#">Join now</a></li>
-<li><a href="#">Find a gym</a></li>
-<li><a href="#">Equipment</a></li>
-<li><a href="#">About us</a></li>
-<li><a href="#">Login</a></li>
-</ul>
-</div>
-</div>
-<!--Burger menu-->
-    </header>
 
-    <!-- END : HEADER -->
 
 
 
@@ -184,7 +209,8 @@
                 <div class="nav-title">
                     <h4>Search</h4>
                     <form action="https://www.google.com/search" method="GET" target="_blank">
-                        <input type="text" name="q" placeholder="Google search" />
+                        <label for="q">Find fitness</label>
+                        <input type="text" id="q" name="google_search"/>
                         <input type="submit" value="Search" style="font-family: sans-serif;" />
                     </form>
                     <div class="container-search"></div>
